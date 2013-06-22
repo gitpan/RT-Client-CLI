@@ -5,7 +5,7 @@ author:
 build_requires:
   Test::More: 0.88
 configure_requires:
-  Module::Build::Tiny: 0.017
+  ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
 generated_by: 'Dist::Milla version v1.0.1, Dist::Zilla version 4.300032, CPAN::Meta::Converter version 2.130880'
 license: perl
@@ -41,6 +41,6 @@ resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=RT-Client-CLI
   homepage: https://metacpan.org/module/RT-Client-CLI
   repository: git://github.com/bestpractical/rt-client-cli.git
-version: 4.0.13
+version: 4.0.13.1
 x_contributors:
   - 'Thomas Sibley <trs@bestpractical.com>'
